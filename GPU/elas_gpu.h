@@ -17,6 +17,8 @@
 #include "matrix.h"
 
 
+void start_gpu_device();
+
 /**
  * Our ElasGPU class with all cuda implementations
  * Note where we extend the Elas class so we are calling

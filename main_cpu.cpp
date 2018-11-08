@@ -26,7 +26,6 @@ Street, Fifth Floor, Boston, MA 02110-1301, USA
 
 using namespace std;
 
-
 // compute disparities of pgm image input pair file_1, file_2
 void process (const char* file_1,const char* file_2) {
 

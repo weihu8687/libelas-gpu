@@ -2,6 +2,11 @@
 
 using namespace std;
 
+void start_gpu_device()
+{
+  cudaFree(0);
+}
+
 __device__ uint32_t getAddressOffsetImage_GPU (const int32_t& u,const int32_t& v,const int32_t& width) {
   return v*width+u;
 }
